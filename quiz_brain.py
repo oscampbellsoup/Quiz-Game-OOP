@@ -1,5 +1,6 @@
+# Define QuizBrain class to store quiz attribtues (question number, transfer question bank object list to this class, and quiz score)
 class QuizBrain:
-
+# 
     def __init__(self, q_list):
         self.question_number = 0
         self.question_list = q_list
